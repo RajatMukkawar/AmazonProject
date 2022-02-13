@@ -19,5 +19,9 @@ public class ShoppingCart {
 	{
 		delete.click();
 	}
+	public void clickDelete1()  //mouse action
+	{
+		delete.click();
+	}
 
 }
