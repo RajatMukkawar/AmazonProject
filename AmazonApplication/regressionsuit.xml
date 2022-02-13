@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="QASuite">
+<listeners>
+		<listener class-name="extendsreport.ExtentTestNGIReporterListener" />
+	</listeners>
+
+  <test  name="Chrome" thread-count="2" parallel="classes">
+  <parameter name="Browsers1" value="chrome"/>
+    <classes>
+      <class name="ExecutionClass.TestNgExecution1"/>
+      
+    </classes>
+  
+  </test> <!-- Test -->
+</suite> <!-- QASuite -->
